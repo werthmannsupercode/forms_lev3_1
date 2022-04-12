@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&family=Roboto+Slab&display=swap');
+
+/* font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    zoom: 0.95;
+}
+
+body {
+    padding: 1vh 32.5vw;
+}
+
+form {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.title {
+    background-color: rgb(73, 128, 157);
+    color: white;
+    padding: 2vh 2vw;
+    font-family: 'Roboto Slab', serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding-top: 1vh;
+}
+
+.ueberschrift {
+    color: rgb(73, 128, 157);
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    margin: 2vh 0 0 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.ueberschrift:nth-of-type(1):before {
+    content: '\2776';
+    color: rgb(73, 128, 157);
+    font-size: 3rem;
+    margin-left: -12.5px;
+    padding-right: 1vw;
+}
+
+.ueberschrift:nth-of-type(2):before {
+    content: '\2777';
+    color: rgb(73, 128, 157);
+    font-size: 3rem;
+    margin-left: -12.5px;
+    padding-right: 1vw;
+}
+
+.ueberschrift:nth-of-type(3):before {
+    content: '\2778';
+    color: rgb(73, 128, 157);
+    font-size: 3rem;
+    margin-left: -12.5px;
+    padding-right: 1vw;
+}
+
+.section {
+    background-color: gainsboro;
+    margin: 0 2vw;
+    padding: 2vh 2vw;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form div label {
+    display: block;
+    font-size: 1.4rem;
+    padding-top: 1vh;
+}
+
+form div input,
+form div textarea {
+    width: 100%;
+    font-size: 2rem;
+}
+
+input[type=submit] {
+    background-color: rgb(73, 128, 157);
+    border-radius: 8px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4rem;
+    padding: 2px 20px;
+    border: none;
+    margin: 2vh 0 3vh 2vw;
+}
+
+.terms,
+input[type=checkbox] {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=checkbox] {
+    margin-left: 13vw;
+}
